@@ -6,12 +6,7 @@
   <meta name="description" content="Book an expert orthopaedic consultation at OrthoNow — 9 clinics across Bengaluru, Hyderabad, and Chennai. Same-week appointments available." />
   <title>Book Your Consultation — OrthoNow Orthopaedic Clinics</title>
 
-  <!-- Google Fonts: non-render-blocking load via print media trick -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" /></noscript>
+  <!-- No external font requests — system font stack only for maximum performance -->
 
   <style>
     /* ============================================================
@@ -32,8 +27,8 @@
       --color-error:     #D64045;
       --color-success:   #1A7F64;
 
-      --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
-      --font-body:    system-ui, -apple-system, 'Segoe UI', sans-serif;
+      --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      --font-body:    -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 
       --radius-sm:  6px;
       --radius-md:  12px;
