@@ -6,16 +6,12 @@
   <meta name="description" content="Book an expert orthopaedic consultation at OrthoNow — 9 clinics across Bengaluru, Hyderabad, and Chennai. Same-week appointments available." />
   <title>Book Your Consultation — OrthoNow Orthopaedic Clinics</title>
 
-  <!-- Preconnect to Google Fonts for performance -->
+  <!-- Google Fonts: non-render-blocking load via print media trick -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!--
-    Font choice:
-    - "Plus Jakarta Sans" for headlines: confident, clean, modern — suits a healthcare brand
-      targeting urban working professionals. Not the sterile/clinical look of Roboto.
-    - System font stack for body: fastest possible render, zero layout shift.
-  -->
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" /></noscript>
 
   <style>
     /* ============================================================
