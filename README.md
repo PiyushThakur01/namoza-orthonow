@@ -74,4 +74,5 @@ Covers:
 ## Submission
 - GitHub: *[https://github.com/PiyushThakur01/namoza-orthonow]*
 - Loom walkthrough: *[https://www.loom.com/share/7825a301db9b4e5a9dcc5c27fc9a86a3]*
+- Live Landing Page: https://6a42671821903b6e2963463e--profound-liger-50a681.netlify.app/
 - Sent to: naman@namoza.com
