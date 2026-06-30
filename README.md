@@ -72,6 +72,6 @@ Covers:
 ---
 
 ## Submission
-- GitHub: *[this repo]*
-- Loom walkthrough: *[link to be added]*
+- GitHub: *[https://github.com/PiyushThakur01/namoza-orthonow]*
+- Loom walkthrough: *[https://www.loom.com/share/7825a301db9b4e5a9dcc5c27fc9a86a3]*
 - Sent to: naman@namoza.com
